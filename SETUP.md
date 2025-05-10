@@ -2,7 +2,7 @@
 
 ## initial
 
-from a minimal install of debian bullseye, setup `sudo`
+from a minimal install of debian bookworm, setup `sudo`
 
 * `su apt install sudo`
 * `su usermod -aG sudo <you>`

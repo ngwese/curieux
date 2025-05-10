@@ -1,0 +1,6 @@
+[submodule "components/aes67-linux-daemon"]
+	path = components/aes67-linux-daemon
+	url = git@github.com:ngwese/aes67-linux-daemon.git
+[submodule "kernel/linux"]
+	path = kernel/linux
+	url = https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
