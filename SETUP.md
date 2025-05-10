@@ -32,3 +32,18 @@ _TODO: document, local name, full preempt, 1000HZ settings, removal of embedded 
 * `make -j3 && make -j3 modules`
 * `sudo make INSTALL_MOD_STRIP=1 modules_install`
 * `sudo make install`
+
+header install...
+
+* ~`sudo apt-get install rsync`~ 
+* `make headers_install` - put the headers in the kernel build tree
+
+## todo
+
+- [ ] look into enabling HW_TS support in RTL8125 driver
+
+
+## references
+
+- [realtek-r8125-dkma](https://github.com/awesometic/realtek-r8125-dkms)
+- [enable ptp support](https://github.com/Joshua-Riek/ubuntu-rockchip/issues/416)
